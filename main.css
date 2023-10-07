@@ -4,19 +4,23 @@ body{
     background-position: right;
 
 }
-ul{
+.Menu li{
     list-style-type: none;
     float: left;
     margin-left: 80px;
     margin-top: 80px; 
     padding: 0px;
+    font-family: 'Gabarito', cursive;
+    font-size: larger;
+    display: inline;
+    list-style-type: none;
 }
 li{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
     font-size: larger;
     display: inline;
     margin: 6px;
-    font-family: 'Gabarito', cursive;
+    font-family: 'Gabarito', cursive; */
     
 }
 
@@ -51,4 +55,8 @@ div{
     padding-bottom: 0%;
     padding-left: 6%;
     padding-right: 50%;
+}
+.workList li{
+    list-style-type: disc;
+    padding-top: 1%;
 }
